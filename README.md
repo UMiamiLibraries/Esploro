@@ -1,5 +1,7 @@
 # Esploro
 
+A collection of tools used for the migration of assets in BePress to Esploro. For questions contact Tim Norris tnorris@miami.edu.
+
 ## org_converter_tiered.py
 this takes the employee grouping table and turns into a tiered (unit to subunit) xml structure
 
@@ -7,7 +9,7 @@ this takes the employee grouping table and turns into a tiered (unit to subunit)
 this takes the researcher feeds and removes blank and duplicate affiliations, and soon to map existing academic units to employee grouping.
 
 ## getOAI.py  
-getOAI.py harvests all metadata from an OAI-PMH endpoint.  
+getOAI.py harvests all metadata from an OAI-PMH endpoint (in this case a BePress instance).  
 
 Usage: > python getOAI.py url [parameters]  
 
@@ -22,4 +24,4 @@ This jupyter notebook has several scripts for analyzing xml produced from a work
   
   
 ## S3.ipynb
-This jupyter notbook contains several scripts to verify and manipulate file names in the S3 bepress dump. You will need to have jupyter installed (get the python 3.7 version from [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)). You will also need the Boto3 library ('pip install boto3' in shell).
+This jupyter notebook contains several scripts to verify and manipulate file names in the S3 bepress dump. You will need to have jupyter installed (get the python 3.7 version from [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)). You will also need the Boto3 library ('pip install boto3' in shell).

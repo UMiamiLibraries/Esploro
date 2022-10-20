@@ -3,3 +3,4 @@ credentials.txt
 pages/
 workdayfeed/
 *.pdf
+.ipynb_checkpoints/
