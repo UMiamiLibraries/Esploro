@@ -1,6 +1,6 @@
 # Esploro
 
-A collection of tools used for the migration of assets in BePress to Esploro. For questions contact Tim Norris tnorris@miami.edu.
+A collection of tools used for the migration of assets in BePress to Esploro. For questions contact Tim Norris at tnorris@miami.edu.
 
 ## org_converter_tiered.py
 this takes the employee grouping table and turns into a tiered (unit to subunit) xml structure
